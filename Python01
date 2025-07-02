@@ -1,0 +1,4 @@
+X = ["a","b","c"]
+Y = [1,2]
+CPD = [[x,y] for x in X for y in Y]
+print ("Cartersian Product = ",CPD)
