@@ -1,0 +1,6 @@
+A = ["Ant","Acc"]
+B = [1,2,3]
+for x in A:
+  print(x)
+for y in B:
+  print(y)
