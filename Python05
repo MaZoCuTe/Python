@@ -1,0 +1,15 @@
+from matplotlib import pyplot as plt
+X = [-5,-4,-3,-2,-1,0,1,2,3,4,5]
+Y = []
+for x in X:
+ y = (3*pow(x,4))+ 5*(x)+1
+ print("(",x,",",y,")")
+ Y.append(y)
+ print("\nSet Y = ")
+for y in Y:
+  print(y)
+  plt.plot(x,y,'r*')
+plt.grid()
+plt.axis([-10,10,-5,50])
+plt.title('Multiple Point Plot')
+plt.show() 
